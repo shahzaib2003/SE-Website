@@ -181,14 +181,14 @@ section.cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   place-items: center;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 section.lower-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   place-items: center;
   padding: 5% 20% 3%;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 @media (max-width: 768px) {
   section.lower-cards {
